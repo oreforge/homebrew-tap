@@ -6,12 +6,12 @@ cask "ore@0.0" do
     on_intel do
       url "https://github.com/oreforge/ore/releases/download/v#{version}/ore_#{version}_macOS_x86_64.tar.gz",
         verified: "github.com/oreforge/ore"
-      sha256 "d9cafc781a090c4908f679fc4a07a7b62f31d952794333308b1f75b837c8754d"
+      sha256 "48e93dc545278bfc56846d1b8bae49e0c75afa40155ec4ce3fce95a5666b66d6"
     end
     on_arm do
       url "https://github.com/oreforge/ore/releases/download/v#{version}/ore_#{version}_macOS_arm64.tar.gz",
         verified: "github.com/oreforge/ore"
-      sha256 "d6532fad0100c8db6d13d068f843c71c52aa9aa9a8289ed9e1308e2acb931de2"
+      sha256 "02a852bdc5b6bad8c3b3a85d86d4ccc63a14c1c887b6c88524eb321d50e3da4a"
     end
   end
 
@@ -19,12 +19,12 @@ cask "ore@0.0" do
     on_intel do
       url "https://github.com/oreforge/ore/releases/download/v#{version}/ore_#{version}_Linux_x86_64.tar.gz",
         verified: "github.com/oreforge/ore"
-      sha256 "f44d64ade687747883b2f6631ef816c3e1bb50c7188649e320c3647f62ca23b4"
+      sha256 "923dbce4a76f298aa3d7408c1190fbd43c5ab9c000bbaa527cb81af0c91bc081"
     end
     on_arm do
       url "https://github.com/oreforge/ore/releases/download/v#{version}/ore_#{version}_Linux_arm64.tar.gz",
         verified: "github.com/oreforge/ore"
-      sha256 "c67f219e6c127abc57b7cba76adbc1ef7ff16c57da97e25767e2d092d318ee40"
+      sha256 "66afabc66cc242a762402491d08525e510a86f6356397c95f11550c9b5dc5eaa"
     end
   end
 
